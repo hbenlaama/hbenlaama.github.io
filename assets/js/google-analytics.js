@@ -19,6 +19,6 @@ if (dnt != "1" && dnt != "yes") {
         "https://www.google-analytics.com/analytics.js",
         "ga"
     );
-    ga("create", "", "auto");
+    ga("create", "G-0GEDWCHNQK", "auto");
     ga("send", "pageview");
 }
