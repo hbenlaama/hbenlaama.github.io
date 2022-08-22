@@ -1,5 +1,4 @@
-var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
-if (dnt != "1" && dnt != "yes") {
+
     (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         (i[r] =
@@ -21,4 +20,3 @@ if (dnt != "1" && dnt != "yes") {
     );
     ga("create", "UA-238225032-1", "auto");
     ga("send", "pageview");
-}
