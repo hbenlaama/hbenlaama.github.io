@@ -18,5 +18,5 @@
         "https://www.google-analytics.com/analytics.js",
         "ga"
     );
-    ga("create", "G-8V38GW25XH", "auto");
+    ga("create", "UA-238225032-1", "auto");
     ga("send", "pageview");
